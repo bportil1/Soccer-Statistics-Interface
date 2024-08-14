@@ -10,7 +10,7 @@ server.use(express.urlencoded({extended: false}));
 
 server.use(express.json());
 
-server.listen(3100, "192.168.1.114", function(){
+server.listen(3100, "ENTER USER IP ADDRESS", function(){
         console.log("listening on port 3100");
         }
 );
