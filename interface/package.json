@@ -1,0 +1,72 @@
+{
+  "name": "react_app",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3000",
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.0",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/preset-react": "^7.24.7",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.16.4",
+    "@mui/utils": "^5.16.4",
+    "@table-library/react-table-library": "^4.1.7",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "beautiful-react-diagrams": "^0.5.1",
+    "bootstrap": "^5.3.3",
+    "buffer": "^6.0.3",
+    "bundle": "^2.1.0",
+    "commonjs": "^0.0.1",
+    "file-loader": "^6.2.0",
+    "gojs": "^3.0.9",
+    "gojs-react": "^1.1.2",
+    "mysql": "^2.18.1",
+    "net": "^1.0.2",
+    "next": "^14.2.5",
+    "process": "^0.11.10",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.4",
+    "react-diagrams": "^1.0.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.2.1",
+    "react-loader-spinner": "^6.1.6",
+    "react-router-dom": "^6.25.1",
+    "reactstrap": "^9.2.2",
+    "server-only": "^0.0.1",
+    "stream": "^0.0.3",
+    "timers": "^0.1.1",
+    "tls": "^0.0.1",
+    "url": "^0.11.3",
+    "util": "^0.12.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "next start",
+    "build": "next build",
+    "dev": "next dev"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^12.0.2"
+  }
+}
