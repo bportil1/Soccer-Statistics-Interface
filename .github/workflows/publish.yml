@@ -20,8 +20,7 @@ jobs:
 
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v4 Default: ${{Soccer-Statistics-Interface}}
-
+        uses: actions/checkout@v4 Default: Soccer-Statistics-Interface
       - name: Setup Node.js ⚙️ - Cache dependencies ⚡ - Install dependencies 🔧
         uses: ./.github/workflows/setup-node
 
