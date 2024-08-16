@@ -12,8 +12,8 @@ runs:
       id: cache_dependencies
       uses: actions/cache@v4
       with:
-        path: ../../../interface
-        key: interface-${{ hashFiles('package-lock.json') }}
+        path: node_modules
+        key: node-modules-${{ hashFiles('../../../interface/package-lock.json') }}
 
     - name: Install dependencies 🔧
       shell: bash
