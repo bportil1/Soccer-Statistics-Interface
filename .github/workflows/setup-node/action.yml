@@ -13,7 +13,7 @@ runs:
       uses: actions/cache@v3
       with:
         path: ../../../interface
-        key: ../../../interface/${{ hashFiles('package-lock.json') }}
+        key: interface-${{ hashFiles('package-lock.json') }}
 
     - name: Install dependencies 🔧
       shell: bash
