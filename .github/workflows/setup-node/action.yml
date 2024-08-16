@@ -1,6 +1,7 @@
 ACTIONS_STEP_DEBUG: true
 name: setup-node
 description: "Setup Node.js ⚙️ - Cache dependencies ⚡ - Install dependencies 🔧"
+working-directory: ../../../interface
 runs:
   using: "composite"
   steps:
@@ -13,7 +14,6 @@ runs:
       id: cache_dependencies
       uses: actions/cache@v4
       with:
-        working-directory: ../../../interface
         path: node_modules
         key: node-modules-${{ hashFiles('/home/runner/work/Soccer-Statistics-Interface/interface/package-lock.json') }}
 
