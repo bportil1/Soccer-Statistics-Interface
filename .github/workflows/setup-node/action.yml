@@ -1,3 +1,4 @@
+ACTIONS_STEP_DEBUG: true
 name: setup-node
 description: "Setup Node.js ⚙️ - Cache dependencies ⚡ - Install dependencies 🔧"
 runs:
