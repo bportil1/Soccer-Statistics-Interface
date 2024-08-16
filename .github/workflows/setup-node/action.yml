@@ -13,6 +13,7 @@ runs:
       id: cache_dependencies
       uses: actions/cache@v4
       with:
+        working-directory: interface
         path: node_modules
         key: node-modules-${{ hashFiles('/home/runner/work/Soccer-Statistics-Interface/interface/package-lock.json') }}
 
