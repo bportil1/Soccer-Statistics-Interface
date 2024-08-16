@@ -12,7 +12,7 @@ runs:
       id: cache_dependencies
       uses: actions/cache@v3
       with:
-        path: ../../interface
+        path: ../../../interface
         key: interface-${{ hashFiles('package-lock.json') }}
 
     - name: Install dependencies 🔧
