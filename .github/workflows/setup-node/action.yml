@@ -10,14 +10,6 @@ runs:
       with:
         node-version: 21
 
-    - name: Cache dependencies ⚡
-      id: cache_dependencies
-      uses: actions/cache@v4
-      with:
-        path: node_modules
-        key: node-modules-${{ hashFiles('/home/runner/work/Soccer-Statistics-Interface/interface/package-lock.json') }}
-
     - name: Install dependencies 🔧
       shell: bash
-      if: steps.cache_dependencies.outputs.cache-hit != 'true'
       run: npm ci
